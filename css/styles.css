@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Asimovian&display=swap");
 
 * {
   padding: 0;
@@ -51,6 +52,19 @@ body {
   transition: all 0.8s ease-in-out;
 }
 
+.press-start-2p-font {
+  font-family: "Press Start 2P", system-ui, 'Segoe UI';
+}
+
+.libertinus-keyboard-font {
+  font-family: "Libertinus  Keyboard", sans-serif;
+}
+
+.asimovian-font {
+  font-family: 'Asimovian', Arial, Helvetica,'Open Sans';
+}
+
+
 /* Sample CSS for the WHY word */
 
 .whyWLetter {
@@ -83,34 +97,59 @@ body {
 /* DID word */
 
 .didDLetter {
+  font-size: large;
+  text-decoration: line-through;
+  text-transform: capitalize;
 }
 
 .didILetter {
+  font-size: small;
+  text-decoration: dotted;
+  font-size: 75px;
 }
 
 .didDTwoLetter {
+  font-size: 80px;
 }
 
 /* THE word */
 
 .theTLetter {
+  font-size: 70px;
+  color: blueviolet;
+  text-decoration: underline;
 }
 
 .theHLetter {
+  font-size: 75px;
+  text-decoration: line-through;
+  font-weight: 700;
+  color: green;
 }
 
 .theELetter {
+  font-size: xx-large;
+  font-style: oblique;
+  text-decoration: overline;
+  color: red;
 }
 
 /* FRONT-END word */
 
 .frontendFLetter {
+  font-size: 100px;
+  text-decoration: solid;
+  color: azure;
 }
 
 .frontendRLetter {
+  font-weight: bolder;
+  color: blue;
 }
 
 .frontendOLetter {
+  font-size: 105px;
+  color: black;
 }
 
 .frontendNLetter {
